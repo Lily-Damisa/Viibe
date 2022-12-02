@@ -1,0 +1,50 @@
+.top-container {
+  background-image: linear-gradient(to top, rgba(161, 103, 165, 1) -2.055%, rgba(39, 35, 46, 1) 83.339%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 40vh;
+}
+
+.artist-container {
+  align-items: center;
+  display: flex;
+}
+
+.artist-wrapper {
+  display: flex;
+  padding: 1rem 3rem 3rem;
+}
+
+.artist-wrapper img {
+  height: 12rem;
+}
+
+.artist-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 2rem;
+}
+
+.artist-info h2 {
+  color: var(--accent-color);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.artist-info h3 {
+  color: var(--light-transparency);
+  font-size: 1.7rem;
+  margin-bottom: 0.25rem;
+}
+
+.artist-info p {
+  color: var(--accent-color);
+}
+
+.music-album {
+  background-color: var(--music-bg);
+  min-height: 60vh;
+  padding: 2rem 2.2rem 2rem 2rem;
+}

@@ -1,0 +1,66 @@
+.music {
+  display: flex;
+}
+
+.music-wrapper {
+  align-items: center;
+  border-radius: 0.5rem;
+  color: var(--text-light);
+  display: flex;
+  padding: 1rem;
+  transition: 0.5s;
+}
+
+.music-wrapper:hover {
+  background-color: var(--music-hover);
+  transition: 0.7s;
+}
+
+.favorite-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.hidden {
+  height: 1rem;
+  width: 0;
+}
+
+.display-none {
+  display: none;
+}
+
+.active {
+  height: 1.5rem;
+  width: revert;
+}
+
+.music span {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.music h4 {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.music svg, .fav {
+  font-size: 1.5rem;
+}
+
+.heart {
+  margin-left: 1rem;
+}
+
+.hide {
+  display: none;
+}

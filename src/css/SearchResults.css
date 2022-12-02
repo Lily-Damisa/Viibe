@@ -1,0 +1,52 @@
+.search-results {
+  display: flex;
+  flex-direction: column;
+  height: 72vh;
+}
+
+.p-results {
+  color: var(--accent-color);
+  padding: 0 3rem;
+}
+
+.search-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 4rem 3rem;
+}
+
+.card-result {
+  align-items: center;
+  background-color: var(--transparency-card);
+  border: 0.1rem solid var(--transparency);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  padding: 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.card-result:hover {
+  box-shadow: 0 0.1rem 1rem var(--accent-color);
+  transition: 0.7s;
+}
+
+.albumImg {
+  height: 180px;
+  width: 180px;
+}
+
+.album-name {
+  color: var(--text-light);
+  max-width: 176px;
+  padding: 12px 4px;
+}
+
+.artist-name {
+  color: var(--light-transparency);
+  max-width: 176px;
+  padding: 0 4px;
+}

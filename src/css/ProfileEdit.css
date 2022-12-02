@@ -1,0 +1,55 @@
+.edit-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+}
+
+.userInfo-edit {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo-input {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.userInfo-input input {
+  background-color: var(--transparency);
+  border: 0.1rem solid;
+  border-color: var(--second-color);
+  border-radius: 16px;
+  color: var(--accent-color);
+  margin-bottom: 1.25rem;
+  min-width: 40vw;
+  padding: 0.8rem;
+}
+
+.userInfo-input input::placeholder {
+  color: var(--second-color);
+}
+
+.saveBtn {
+  background-color: var(--second-color);
+  border: 0.1rem solid var(--second-color);
+  border-color: var(--second-color);
+  border-radius: 16px;
+  color: var(--accent-color);
+  padding: 0.8rem;
+  transition: 0.7s;
+}
+
+.saveBtn:hover {
+  background-color: var(--btn-hover);
+  border: 0.1rem solid var(--btn-hover);
+  transition: 0.7s;
+}
+
+.saveBtn:disabled, .saveBtn:disabled:hover {
+  background-color: var(--transparency);
+  border: 0.1rem solid var(--second-color);
+  color: var(--light-transparency);
+}
